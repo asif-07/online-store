@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,18 +78,18 @@
 
   <script type="text/babel">
     const csvData = `
-ID,Name,Image,Price,Stock,Category,Description
-1,Hello Ai Text Book (Grade 1),https://i.postimg.cc/pXsbkmkr/Grade-1-all-chapters-01.jpg,439,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.
-2,Hello Ai Text Book (Grade 2),https://i.postimg.cc/0NgRrvL6/GRADE-2-all-chapters-01.jpg,459,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.
-3,Hello Ai Text Book (Grade 3),https://i.postimg.cc/43GLrxD1/GRADE-3-all-chapters-01.jpg,479,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.
-4,Hello Ai Text Book (Grade 4),https://i.postimg.cc/dQfWJ6M3/GRADE-4-all-chapters-01.jpg,489,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.
-5,Hello Ai Text Book (Grade 5),https://m.media-amazon.com/images/I/81OjcvfrC7L._SY425_.jpg,499,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.
-6,Hello Ai Text Book (Grade 6),https://m.media-amazon.com/images/I/41ILTZHDN8L._SY445_SX342_.jpg,549,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.
-7,Hello Ai Text Book (Grade 7),https://m.media-amazon.com/images/I/41+a8SC59wL._SY445_SX342_.jpg,599,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.
-8,Hello Ai Text Book (Grade 8),https://m.media-amazon.com/images/I/41LrCykhq3L._SY445_SX342_.jpg,649,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.
-9,Otto Ninja Robot,https://media.printables.com/media/prints/231580/images/2105481_96ae0b41-56eb-4850-a528-98a0116d7100/thumbs/inside/1600x1200/png/ottoninjastarterrobotw.webp,4000,in,STEM Lab,Unique open source robot that walks and transforms into a wheeled racer! made by Sebastian Coddington.
-11,Writing & Drawing Machine,https://i.postimg.cc/LXCTWgQ4/Drawing-and-writing-machine.webp,9999,in,STEM Lab,Drawing and Writing machine is a type of CNC (Computer Numerical Control) plotter or pen plotter designed to automatically draw images or write text on A4-sized paper (210mm x 297mm). These machines are widely used in educational, hobbyist, and light industrial settings for art, automation projects, and technical documentation.
-10,3D Printer,https://m.media-amazon.com/images/I/61ibc33EJKL._SY679_.jpg,32000,in,STEM Lab,Creality Ender-3 S1 3d Printer- Direct Extruder- Automatic Leveling- PC Sheet- Power Outage Recovery- Filament Sensor- Dual Z Axis- 96% Assembly- Silent- Japanese FDM 3d Printer.
+ID,Name,Image,Price,Stock,Category,Description,DocumentLink
+1,Hello Ai Text Book (Grade 1),https://i.postimg.cc/pXsbkmkr/Grade-1-all-chapters-01.jpg,439,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.,
+2,Hello Ai Text Book (Grade 2),https://i.postimg.cc/0NgRrvL6/GRADE-2-all-chapters-01.jpg,459,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.,
+3,Hello Ai Text Book (Grade 3),https://i.postimg.cc/43GLrxD1/GRADE-3-all-chapters-01.jpg,479,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.,
+4,Hello Ai Text Book (Grade 4),https://i.postimg.cc/dQfWJ6M3/GRADE-4-all-chapters-01.jpg,489,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.,
+5,Hello Ai Text Book (Grade 5),https://m.media-amazon.com/images/I/81OjcvfrC7L._SY425_.jpg,499,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.,
+6,Hello Ai Text Book (Grade 6),https://m.media-amazon.com/images/I/41ILTZHDN8L._SY445_SX342_.jpg,549,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.,
+7,Hello Ai Text Book (Grade 7),https://m.media-amazon.com/images/I/41+a8SC59wL._SY445_SX342_.jpg,599,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.,
+8,Hello Ai Text Book (Grade 8),https://m.media-amazon.com/images/I/41LrCykhq3L._SY445_SX342_.jpg,649,in,Hello Ai,This textbook is designed to deepen young learners' understanding of (technology artificial intelligence-coding- and robotics through engaging and interactive educational experiences.,
+9,Otto Ninja Robot,https://media.printables.com/media/prints/231580/images/2105481_96ae0b41-56eb-4850-a528-98a0116d7100/thumbs/inside/1600x1200/png/ottoninjastarterrobotw.webp,4000,in,STEM Lab,Unique open source robot that walks and transforms into a wheeled racer! made by Sebastian Coddington.,
+11,Writing & Drawing Machine,https://i.postimg.cc/LXCTWgQ4/Drawing-and-writing-machine.webp,9999,in,STEM Lab,Drawing and Writing machine is a type of CNC (Computer Numerical Control) plotter or pen plotter designed to automatically draw images or write text on A4-sized paper (210mm x 297mm). These machines are widely used in educational, hobbyist, and light industrial settings for art, automation projects, and technical documentation.,
+10,3D Printer,https://m.media-amazon.com/images/I/61ibc33EJKL._SY679_.jpg,32000,in,STEM Lab,Creality Ender-3 S1 3d Printer- Direct Extruder- Automatic Leveling- PC Sheet- Power Outage Recovery- Filament Sensor- Dual Z Axis- 96% Assembly- Silent- Japanese FDM 3d Printer.,
 `;
 
     // Product Detail Modal Component
@@ -115,6 +116,15 @@ ID,Name,Image,Price,Stock,Category,Description
                   </div>
                   <p className="text-sm text-gray-500">Category: <span className="font-medium text-gray-700">{product.Category}</span></p>
                 </div>
+                {/* Download Document Button */}
+                {product.DocumentLink && (
+                    <a href={product.DocumentLink} target="_blank" rel="noopener noreferrer" download
+                       className="w-full py-3 px-4 mt-4 rounded-lg font-medium transition-all duration-200 text-sm md:text-base
+                                  bg-gray-700 text-white hover:bg-gray-800 hover:shadow-lg transform hover:scale-105 flex items-center justify-center">
+                      <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                      Download Document
+                    </a>
+                )}
                 <button
                   className={`w-full py-3 px-4 mt-6 rounded-lg font-medium transition-all duration-200 text-sm md:text-base ${product.Stock === "in" ? (isInCart ? "bg-green-500 text-white hover:bg-green-600 transform hover:scale-105" : "bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:shadow-lg transform hover:scale-105") : "bg-gray-200 text-gray-500 cursor-not-allowed"}`}
                   onClick={() => { if (product.Stock === "in") { if (isInCart) { toggleCart(); onClose(); } else { addToCart(product); } } }}
@@ -441,7 +451,7 @@ ID,Name,Image,Price,Stock,Category,Description
             <div className="w-full px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
                 <div className="flex items-center flex-grow min-w-0">
                     {/* MODIFIED: Added onClick to Edapt Logo for smooth scroll to home */}
-                    <button onClick={scrollToHome} className="flex-shrink-0 mr-3 sm:mr-6 cursor-pointer focus:outline-none">
+                    <button onClick={scrollToHome} className="flex-shrink-0 mr-3 sm:mr-6 cursor:pointer focus:outline-none">
                         <img src="https://digitalskills.iitmpravartak.org.in/assets/images/learning/edapt/logo.png" alt="Edapt Logo" className="h-7 sm:h-8 w-auto"/>
                     </button>
                     <div className="relative flex-grow max-w-xl hidden sm:block">
